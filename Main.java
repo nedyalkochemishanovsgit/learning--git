@@ -12,7 +12,7 @@ public class Main {
         for (double digit : numbers) {
 
             if (map.containsKey(digit)) {
-                int count = map.get(digit); // взима (V)
+                int count = map.get(digit);
 
                 map.put(digit, count + 1);
             } else {
